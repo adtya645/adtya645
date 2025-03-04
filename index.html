@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Faradise Rental Mobil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            text-align: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .car-list {
+            display: block;
+            block-size;-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .car-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .car-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .car-card h3 {
+            margin: 15px 0 10px;
+        }
+        .car-card p {
+            margin: 0;
+        }
+        .booking-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .booking-button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Faradise Rental Mobil</h1>
+    <p>Layanan rental mobil dengan sopir di Yogyakarta</p>
+</header>
+<header id="hero">
+    <div class="hero-content">
+    </div>
+</header>
+
+<style>
+      /* Bagian Hero Section */
+      #hero {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP3qrPzSZUYcC6WFRnhoDp_xEbfM6QZGR-CQ&usqp=CAU');
+        background-size: cover;
+        background-position: center;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        color: rgba(9, 9, 9, 0.808);
+    }
+    }
+    }
+
+    /* Overlay Transparan untuk Kecerahan Teks */
+    #hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Warna overlay hitam transparan */
+        z-index: 1;
+    }
+
+    /* Konten Teks di Hero Section */
+    .hero-content {
+        position: relative;
+        z-index: 2; /* Agar berada di atas overlay */
+        max-width: 800px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.1); /* Latar belakang putih semi transparan untuk kontras */
+        border-radius: 10px;
+    }
+
+    /* Judul di Hero Section */
+    .hero-content h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    /* Paragraf Deskripsi */
+    .hero-content p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Tombol untuk Aksi */
+    .btn {
+        background-color: #28a745;
+        color: white;
+        padding: 12px 30px;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #218838; /* Warna saat tombol di-hover */
+    }
+</style>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#wisata">Paket Liburan</a>
+    <a href="#services">Daftar Mobil</a>
+    <a href="#contact">Kontak</a>
+    <a href="#reviews">Penilaian</a>
+</nav>
+
+<section id="about">
+    <h2>Tentang Kami</h2>
+    <div class="about-content">
+        <h3>Rental Mobil Jogja Dengan Sopir</h3>
+         Perjalanan Anda di Kota Yogyakarta menggunakan layanan sewa mobil matic Jogja tentunya akan lebih nyaman dan leluasa bersama Faradise Rent Car. Kami menyediakan berbagai jenis mobil dengan tipe terbaik yang bisa di sewa lebih murah.
+         Selain itu sopir (driver) yang akan mengantarkan perjalanan Anda adalah mereka yang sudah berpengalaman. Oleh karena itu jangan ragu untuk mempercayakan pada kami apabila Anda ingin melakukan perjalanan bisnis, kantor, dinas, liburan, acara pernikahan/wedding dan lain-lainnya.</p>
+
+        <h3>Apa Alasan Memilih Rental Mobil Jogja dari Faradise Rent Car?</h3>
+        <p>Saat ini persaingan tempat rental mobil di Jogja sangatlah ketat. Kami memahami bahwa media yang berkembang saat ini membuat mudah untuk setiap perusahaan mempromosikan layanannya. Namun, sebagai penyedia rental mobil Jogja yang terbaik dan berkualitas, kami mampu bersaing karena kami memiliki keunggulan. Dibawah ini adalah uraian keunggulan layanan sewa mobil Jogja dari Faradise Rent Car:.</p>
+
+        <h3>Banyak Pilihan Mobil dan Kondisi Berkualitas</h3>
+        <p>Rental mobil Jogja murah menawarkan berbagai macam pilihan mobil dengan kualitas yang terbaik serta terawat dari sisi interior, eksterior maupun mesin mobilnya. Di tempat kami tersedia kendaraan sewa dengan kapasitas 5 hingga 50 penumpang, seperti mobil Calya, Xenia, Avanza, Innova Grand, Innova Reborn, ELF Short, ELF Long, Hiace Commuter, Hiace Premio, Fortuner, Pajero, Alphard Transformer hingga Bus Pariwisata.
+           Semua mobil tersebut tentunya memiliki kondisi yang nyaman digunakan dalam perjalanan baik itu untuk pemakaian dalam kota (Jogja city tour) maupun untuk pemakaian ke luar kota (drop-off, tour ke luar kota, maupun perjalanan ke luar kota beberapa hari). Kami selalu melakukan pengecekan rutin pada interior dan eksterior kami setiap mobil kembali ke garasi agar mobil selalu dalam kondisi bersih.
+           Selain itu, guna menjaga performa mesin agar tetap baik, kami juga melakukan service berkala pada bengkel resmi. Dengan ini kami memastikan perjalanan Anda menggunakan layanan rental mobil VIP Jogja dengan sopir tidak akan ada kendala. Dengan banyaknya pilihan mobil yang kami sediakan tersebut, kami harap pelanggan bisa lebih leluasa dalam memilih mobil yang sesuai dengan kebutuhan, kapasitas penumpang serta anggaran penyewaan mobil..</p>
+         
+
+        <h3>Pelayanan Terbaik Meskipun Harga Murah</h3>
+        <p>Kami ingin layanan rental mobil di Jogja yang kami tawarkan bisa di nikmati oleh semua kalangan masyarakat. Oleh karena itu, kami menawarkan harga carter mobil di Jogja yang murah kepada pelanggan. Anda sudah bisa menikmati perjalanan menggunakan jasa sewa mobil Jogja murah dengan sopir dari kami hanya dengan Rp. 350.000 saja.
+            Untuk lebih hemat dan menguntungkan, Anda bisa memilih paket rental mobil di Jogja dengan sopir dan bbm (paket all include). Jangan khawatirkan! Meskipun biaya Yogyakarta car rental yang kami tawarkan sangat murah dan kompetitif, Anda akan tetap mendapatkan pelayanan berkualitas.
+            Mobil dengan kualitas yang terbaik, bersih dan kondisi prima, serta sopir yang ramah dan berpengalaman akan mengantarkan perjalanan Anda berkeliling Kota Yogyakarta. Mengetahui keunggulan-keunggulan yang kami miliki, tentu saja Anda sudah sedikit memahami bagaimana cara kami dalam melayani pelanggan. Pesan sekarang juga mobil yang ingin Anda sewa, hindari pemesanan carter mobil di Jogja secara mendadak!</p>
+        
+        </ul>
+    </div>
+</section>
+
+<style>
+    #about {
+        padding: 40px;
+        background-color: #f4f4f4;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .about-content {
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .about-content h2 {
+        margin-top: 0;
+    }
+    .about-content h3 {
+        margin-top: 20px;
+        color: #333;
+    }
+    .about-content p, .about-content ul {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #666;
+    }
+    .about-content ul {
+        padding-left: 20px;
+    }
+    .about-content ul li {
+        margin-bottom: 10px;
+    }
+</style>
+
+<section id="services">
+    <h2>Daftar Unit</h2>
+    <div class="car-list">
+        <!-- Toyota Calya 3-6 seat -->
+        <div class="car-card">
+            <img  <img src="https://imgcdn.oto.com/large/gallery/color/38/2233/toyota-calya-color-918913.jpg" alt="Toyota Calya 3-6 seat">
+            <h3>Toyota Calya 3-6 seat</h3>
+            <p>Harga: Rp 250.000 – Rp 550.000</p>
+            <a href="https://wa.me/6285602832470?text=Halo%20saya%20tertarik%20dengan%20layanan%20Anda" class="booking-button">Booking Now</a>
+        </divv 
+
+        <!-- Toyota Avanza -->
+        <div class="car-card">
+            <img src="https://imgcdn.oto.com/large/gallery/color/38/1654/toyota-avanza-color-523617.jpg" alt="Toyota Avanza">
+            <h3>Toyota Avanza</h3>
+            <p>Harga: Rp 400.000 – Rp 700.000</p>
+            <a href="https://wa.me/6285602832470" class="booking-button">Booking Now</a>
+        </div>
+
+        <!-- Honda Mobilio -->
+        <div class="car-card">
+            <img src="https://imgcdn.oto.com/large/gallery/exterior/14/98/honda-mobilio-front-angle-low-view-192461.jpg" alt="Honda Mobilio">
+            <h3>Honda Mobilio</h3>
+            <p>Harga: Rp 400.000 – Rp 700.000</p>
+            <a href="https://wa.me/6285602832470"class="booking-button">Booking Now</a>
+        </div>
+
+        <!-- Mitsubishi Xpander -->
+        <div class="car-card">
+            <img src="https://www.sunmotor.com/wp-content/uploads/2021/04/xpander-quartz-white-pearl.jpg" alt="Mitsubishi Xpander">
+            <h3>Mitsubishi Xpander</h3>
+            <p>Harga: Rp 450.000 – Rp 750.000</p>
+            <a href="https://wa.me/6285602832470" class="booking-button">Booking Now</a>
+        </div>
+
+        <!-- Toyota Hiace -->
+        <div class="car-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkj7IZWkQEoK1pYknsFxkMntsasv1YgJVKfg&s" alt="Toyota Hiace">
+            <h3>Toyota Hiace</h3>
+            <p>Harga: Rp 900.000 – Rp 1.300.000</p>
+            <a href="https://wa.me/6285602832470" class="booking-button">Booking Now</a>
+        </div>
+
+        <!-- Toyota Hiace Premio -->
+        <div class="car-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ_8cHL0O6BecTz_7AkoVTZXeqIicQHgekMA&s" alt="Toyota Hiace Premio">
+            <h3>Toyota Hiace Premio</h3>
+            <p>Harga: Rp 1.100.000 – Rp 1.500.000</p>
+            <a href="https://wa.me/6285602832470" class="booking-button">Booking Now</a>
+        </div>
+      </div>
+</section>
+
+<section id="reviews">
+    <h2>Review Pelanggan</h2>
+    <div class="review-list">
+        <!-- Review 1 -->
+        <div class="review-card">
+            <h3>Ahmad, Yogyakarta</h3>
+            <p>"Pelayanan yang luar biasa! Mobilnya bersih, sopir ramah, dan tepat waktu. Sangat puas menggunakan Hiace Premio untuk perjalanan keluarga kami."</p>
+            <p>Rating: ★★★★★</p>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+            <h3>Dewi, Jakarta</h3>
+            <p>"Saya menyewa Bigbus untuk rombongan acara kantor. Mobil nyaman dan harga sesuai. Kami sangat merekomendasikan Faradise Rent Car!"</p>
+            <p>Rating: ★★★★☆</p>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+            <h3>Budi, Surabaya</h3>
+            <p>"Driver ramah, pelayanan mantap ."</p>
+            <p>Rating: ★★★★★</p>
+        </div>
+    </div>
+</section>
+
+<style>
+    #reviews {
+        padding: 20px;
+        background-color: #f9f9f9;
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+    .review-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    .review-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .review-card h3 {
+        margin: 0 0 10px;
+    }
+    .review-card p {
+        margin: 5px 0;
+    }
+    .review-card p:last-child {
+        font-weight: bold;
+        color: #ff9900;
+    }
+</style>
+
+<section id="contact">
+    <h2>Kontak Kami</h2>
+    <p>Untuk informasi lebih lanjut, hubungi kami di:</p>
+    <p>Email: adtya645@gmail.com</p>
+    <p>Telepon: 0856-0283-2470</p>
+    <p>Alamat: Bangeran Rt.007 Dk keyongan Sabdodadi Bantul</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Faradise Rent Car. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
